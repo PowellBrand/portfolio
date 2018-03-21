@@ -6,11 +6,11 @@ class Nav extends Component {
         return (
             <div className="MainNav">
                 <nav>
-                    <p>Home</p>
-                    <p>Portfolio</p>
-                    <p>Skills</p>
-                    <p>About</p>
-                    <p>Contact</p>
+                    <a href="#home"><p>Home</p></a>
+                    <a href="#portfolio"><p>Portfolio</p></a>
+                    <a href="#skills"><p>Skills</p></a>
+                    <a href="#about"><p>About</p></a>
+                    <a href="#contact"><p>Contact</p></a>
                 </nav>
             </div>
         );

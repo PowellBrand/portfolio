@@ -6,11 +6,11 @@ class Home extends Component {
         return (
             <div className="App">
                 <Nav />
-                <div className="Welcome">
+                <div className="Welcome" id="home">
                     <div className="wlcmTxt"><p>Welcome! I'm Brandon and I'm a developer</p> </div>
                     <div>placeholder for image</div>
                 </div>
-                <div className="Portfolio">
+                <div className="Portfolio" id="portfolio">
                     <div className="drig">
                         Placeholder for Drig
                     </div>
@@ -18,13 +18,13 @@ class Home extends Component {
                         Placeholder for stick to it
                     </div>
                 </div>
-                <div className="skills">
+                <div className="Skills" id="skills">
                     Placeholderfor skills
                 </div>
-                <div className="about">
+                <div className="About" id="about">
                     Placeholder for about
                 </div>
-                <div className="contact">
+                <div className="Contact" id="contact">
                     Placeholder for contact
                 </div>
             </div>
