@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './skills.css';
 import cssimg from './cssimg.png';
 import expressimg from './expressimg.png';
 import gitimg from './gitimg.png';

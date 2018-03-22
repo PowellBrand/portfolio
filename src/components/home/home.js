@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Skills from '../skills/skills';
 import Nav from '../nav/nav';
+import uintas from './uintas.png';
 
 class Home extends Component {
     constructor(props) {
@@ -42,7 +43,7 @@ class Home extends Component {
                 {/* Welcome */}
                 <div className="Welcome" id="home">
                     <div className="wlcmTxt"><p>Welcome! I'm Brandon and I'm a developer</p> </div>
-                    <div>placeholder for image</div>
+                    <img src={uintas} alt="Branon in the Uintas"/>
                 </div>
                 {/* End Welcome */}
 
