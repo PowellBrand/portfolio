@@ -6,6 +6,7 @@ module.exports = {
             <p>You have a new email from your website</p>
             <p>${req.body.name}</p>
             <p>${req.body.from}</p>
+            <p>${req.body.subject}</p>
             <p>${req.body.message}</p>
         `;
 
@@ -20,9 +21,9 @@ module.exports = {
 
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"Nocturnal Mailer"', // sender address
+            from: '"Portfolio Page"', // sender address
             to: process.env.EMAIL_USER, // list of receivers
-            subject: 'Message from Nocturnal', // Subject line
+            subject: 'Someone has sent you an email!', // Subject line
             html: output // html body
         };
 

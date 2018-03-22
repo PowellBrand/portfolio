@@ -37,6 +37,8 @@ app.use(passport.session());
 //// EndPoints ////
 ///////////////////
 
+//Send Email
+app.post('/contact/send', mail_controller.sendEmail)
 
 
 /////////////////////
