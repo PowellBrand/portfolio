@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Skills from '../skills/skills';
 import Nav from '../nav/nav';
 
 class Home extends Component {
@@ -37,10 +38,15 @@ class Home extends Component {
         return (
             <div className="App">
                 <Nav />
+
+                {/* Welcome */}
                 <div className="Welcome" id="home">
                     <div className="wlcmTxt"><p>Welcome! I'm Brandon and I'm a developer</p> </div>
                     <div>placeholder for image</div>
                 </div>
+                {/* End Welcome */}
+
+                {/* Portfolio */}
                 <div className="Portfolio" id="portfolio">
                     <div className="drig">
                         Placeholder for Drig
@@ -49,14 +55,19 @@ class Home extends Component {
                         Placeholder for stick to it
                     </div>
                 </div>
-                <div className="Skills" id="skills">
-                    Placeholderfor skills
-                </div>
+                {/* End Portfolio */}
+
+                {/* Skills */}
+                <Skills />
+                {/* End Skills */}
+
+                {/* About */}
                 <div className="About" id="about">
                     <p>Hello, I’m Brandon Powell and i’m a web developer.
                         I am always looking to further my development knowledge.  I enjoy any outdoor activity, especially long walks through the woods. If you are looking for a new site, contact me below.
                     </p>
                 </div>
+                {/* End About */}
 
                 {/* Contact  */}
                 <div className='contact'>
@@ -83,6 +94,7 @@ class Home extends Component {
                     </form>
                 </div>
                 {/* End Contact */}
+
             </div>
         );
     }

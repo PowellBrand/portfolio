@@ -23,7 +23,7 @@ module.exports = {
         let mailOptions = {
             from: '"Portfolio Page"', // sender address
             to: process.env.EMAIL_USER, // list of receivers
-            subject: 'Someone has sent you an email!', // Subject line
+            subject: 'Commander you have a new message at your terminal', // Subject line
             html: output // html body
         };
 
