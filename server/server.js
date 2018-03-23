@@ -13,7 +13,6 @@ const app = express()
 
 // Controllers
 const controller = require('./controller/controller')
-, auth_controller = require('./controller/auth_controller')
 , mail_controller = require('./controller/mail_controller');
 
 // Body-Parser and middleware

@@ -6,12 +6,12 @@ class Nav extends Component {
     render() {
         return (
             <div className="MainNav">
-                <nav>
-                    <a href="#home"><p>Home</p></a>
-                    <a href="#portfolio"><p>Portfolio</p></a>
-                    <a href="#skills"><p>Skills</p></a>
-                    <a href="#about"><p>About</p></a>
-                    <a href="#contact"><p>Contact</p></a>
+                <nav className="navdiv">
+                    <a href="#home" className="navlink"><p>Home</p></a>
+                    <a href="#portfolio" className="navlink"><p>Portfolio</p></a>
+                    <a href="#skills" className="navlink"><p>Skills</p></a>
+                    <a href="#about" className="navlink"><p>About</p></a>
+                    <a href="#contact" className="navlink"><p>Contact</p></a>
                 </nav>
             </div>
         );
