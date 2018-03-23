@@ -1,0 +1,22 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wlcmTxt{
+    width: 50%;
+    height: 523px;
+    background-color: black;
+    vertical-align: text-top;
+}
+.wlcmTxt p{
+    color: white;
+    font-size: 4rem;
+    margin-top: 20%;
+}
+.uintaimg{
+    width: 50%;
+    height: auto;
+
+}

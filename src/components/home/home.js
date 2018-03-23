@@ -3,6 +3,7 @@ import axios from 'axios';
 import Skills from '../skills/skills';
 import Nav from '../nav/nav';
 import uintas from './uintas.png';
+import './home.css';
 
 class Home extends Component {
     constructor(props) {
@@ -41,9 +42,11 @@ class Home extends Component {
                 <Nav />
 
                 {/* Welcome */}
-                <div className="Welcome" id="home">
-                    <div className="wlcmTxt"><p>Welcome! I'm Brandon and I'm a developer</p> </div>
-                    <img src={uintas} alt="Branon in the Uintas"/>
+                <div className="welcome" id="home">
+                    <div className="wlcmTxt">
+                        <p>Welcome! <br/> I'm Brandon and I'm a developer</p>
+                    </div>
+                    <img src={uintas} alt="Branon in the Uintas" className="uintaimg"/>
                 </div>
                 {/* End Welcome */}
 
