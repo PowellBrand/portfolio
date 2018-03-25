@@ -15,6 +15,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="skillcons">
+                <h1>Skills</h1>
                 <img src={cssimg} alt="CSS Image"/>
                 <img src={expressimg} alt="Express Image"/>
                 <img src={gitimg} alt="Git Image"/>
