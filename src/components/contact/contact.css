@@ -7,7 +7,7 @@
     color: white;
     
 }
-.contIn, contMes{
+.contIn, .contMes{
     background: transparent;
     border: none;
     border-bottom: 1px solid white;

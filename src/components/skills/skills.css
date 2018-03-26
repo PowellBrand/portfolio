@@ -1,0 +1,13 @@
+.scontainer{
+}
+.skillcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 70px auto;
+}
+.scontainer h1{
+    margin-top: 20px;
+    font-size: 29px;
+}

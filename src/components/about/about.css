@@ -1,0 +1,18 @@
+.acontainer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(250, 250, 250);
+    padding-top: 20px;
+    align-items: center;
+}
+
+.contcontainer h1{
+    font-size: 29px;
+    margin: 20px 0px 100px 0px;
+}
+
+.aboutpara{
+    font-size: 29px;
+    margin: 0px 50px;
+    line-height: 1.7em;
+}

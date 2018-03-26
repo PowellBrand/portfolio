@@ -55,7 +55,7 @@ class Contact extends Component {
                         <label>Message:</label>
                         <textarea className='contMes' ref="message" rows="7"></textarea>
                     </p>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Send</button>
 
                 </form>
             </div>
